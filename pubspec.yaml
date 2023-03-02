@@ -12,9 +12,13 @@ dependencies:
   alice: ^0.3.2
   cupertino_icons: ^1.0.2
   dio: ^4.0.6
+  easy_localization: ^3.0.1
+  flutter_bloc: ^8.1.2
+  flutter_svg: ^2.0.2
   get_it: ^7.2.0
   hive: ^2.2.3
   path_provider: ^2.0.13
+  pull_to_refresh: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +27,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/tr/
